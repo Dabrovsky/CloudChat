@@ -1,0 +1,43 @@
+// Colors ---------------------------
+$white:                 white;
+$whitesmoke:            whitesmoke;
+$gray:                  gray;
+$darkGray:              #545454;
+$yellowGreen:           #96af4a;
+$lightGreen:            #d3f54e;
+$lightBlue:             #cde2ee;
+$cloudBlue:             #a2cae2;
+$blue:                  #5db1e2;
+$steelblue:             #0f6dbb;
+$red:                   #d84040;
+
+
+// Base -----------------------------
+$gridContainerWidth:    1200px;
+$gridBreakPoint:        640px;
+$gridColumns:           12;
+
+
+// Fonts ----------------------------
+@font-face { font-family: jaf-bernino-sans; src:
+    url(https://use.typekit.net/af/993d8a/000000000000000000014670/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),
+    url(https://use.typekit.net/af/993d8a/000000000000000000014670/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),
+    url(https://use.typekit.net/af/993d8a/000000000000000000014670/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-weight: 400; font-style: normal; }
+@font-face { font-family: jaf-bernino-sans; src:
+    url(https://use.typekit.net/af/574727/000000000000000000014674/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/574727/000000000000000000014674/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/574727/000000000000000000014674/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+    font-weight: 700; font-style: normal; }
+@font-face { font-family: jaf-bernino-sans; src:
+    url(https://use.typekit.net/af/207e6a/00000000000000000001466e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),
+    url(https://use.typekit.net/af/207e6a/00000000000000000001466e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),
+    url(https://use.typekit.net/af/207e6a/00000000000000000001466e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");
+    font-weight: 300; font-style: normal; }
+@font-face { font-family: jaf-bernino-sans; src:
+    url(https://use.typekit.net/af/f6572e/000000000000000000014672/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),
+    url(https://use.typekit.net/af/f6572e/000000000000000000014672/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),
+    url(https://use.typekit.net/af/f6572e/000000000000000000014672/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");
+    font-weight: 600; font-style: normal; }
+
+$jafBernino:          "jaf-bernino-sans", sans-serif;

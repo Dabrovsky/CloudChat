@@ -1,0 +1,114 @@
+[class*='col-'] {
+    min-height: 100px;
+}
+
+*:focus {
+    -moz-outline-style: none;
+    outline: none;
+    outline: 0
+}
+
+header, section, footer {
+    width: 100%;
+    font-family: $jafBernino;
+    font-size: 13px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    min-width: 10%;
+    position: absolute;
+    right: 10%;
+    top: 0;
+
+    .user-content {
+          display: inline-block;
+          min-width: 165px;
+          margin-top: 0;
+          background: rgba(39, 61, 85, 0.51);
+          padding: 10px 20px;
+          border-radius: 0 0 6px 6px;
+
+        .user-content-text {
+            position: relative;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 6px;
+            margin-right: 16px;
+            margin-left: 5px;
+
+            &::after {
+                content: '';
+                border: 10px solid transparent;
+                border-left: 10px solid white;
+                height: -13px;
+                display: block;
+                position: absolute;
+                left: 99%;
+                top: 9px;
+            }
+
+        }
+
+        .user-img {
+            width: 50px;
+            border-radius: 50%;
+            border: 1px solid;
+            border-color: gray;
+            padding: 3px;
+            float: right;
+            -webkit-animation: borderColor 5s infinite; /* Safari 4.0 - 8.0 */
+            animation: borderColor 5s infinite;
+        }
+
+        @keyframes borderColor {
+            0% {border-color: $cloudBlue}
+            50% {border-color: $yellowGreen}
+            100% {border-color: $cloudBlue}
+          }
+
+    }
+
+}
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.chatBox {
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 6px;
+    background: rgba(205, 226, 238, 0.18);
+    margin: 50px auto;
+}
+
+.full-height {
+    min-height: 90vh;
+}
+
+footer {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #72adcc;
+}
+
+.mobile-section {
+    @media (min-width: 420px) {
+
+    }
+
+}
