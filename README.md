@@ -1,7 +1,7 @@
 # CloudChat
 Simple web chat project v1.0 (new updates on the way)
 
-__Used__
+__Used for now:__
 
 HTML5, CSS3, jQuery, Firebase, RWD
 
